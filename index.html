@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <main>
+        <div class="calculator_container">
+            <input class="input" type="text" readonly>
+            <div class="btn_container">
+                <button class="btn_c" onclick="clearInput()">C</button>
+                <button class="btn_c" onclick="appendNumber('1')">1</button>
+                <button class="btn_c" onclick="appendNumber('2')">2</button>
+                <button class="btn_c" onclick="appendNumber('+')">+</button>
+                <button class="btn_c" onclick="appendNumber('3')">3</button>
+                <button class="btn_c" onclick="appendNumber('4')">4</button>
+                <button class="btn_c" onclick="appendNumber('-')">-</button>
+                <button class="btn_c" onclick="appendNumber('5')">5</button>
+                <button class="btn_c" onclick="appendNumber('6')">6</button>
+                <button class="btn_c" onclick="appendNumber('*')">*</button>
+                <button class="btn_c" onclick="appendNumber('7')">7</button>
+                <button class="btn_c" onclick="appendNumber('8')">8</button>
+                <button class="btn_c" onclick="appendNumber('/')">/</button>
+                <button class="btn_c" onclick="calculateResult()">=</button>
+                <button class="btn_c" onclick="appendNumber('9')">9</button>
+                <button class="btn_c" onclick="appendNumber('0')">0</button>
+                <button class="btn_c" onclick="appendNumber('.')">.</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
