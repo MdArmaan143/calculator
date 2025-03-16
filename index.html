@@ -7,31 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="stars"></div>
-    <div class="stars2"></div>
-    <div class="stars3"></div>
 
     <main>
         <div class="calculator_container">
             <input class="input" type="text" readonly>
             <div class="btn_container">
-                <button class="btn_c" onclick="clearInput()">C</button>
-                <button class="btn_c" onclick="appendNumber('1')">1</button>
-                <button class="btn_c" onclick="appendNumber('2')">2</button>
-                <button class="btn_c" onclick="appendNumber('+')">+</button>
-                <button class="btn_c" onclick="appendNumber('3')">3</button>
-                <button class="btn_c" onclick="appendNumber('4')">4</button>
-                <button class="btn_c" onclick="appendNumber('-')">-</button>
-                <button class="btn_c" onclick="appendNumber('5')">5</button>
-                <button class="btn_c" onclick="appendNumber('6')">6</button>
-                <button class="btn_c" onclick="appendNumber('*')">*</button>
-                <button class="btn_c" onclick="appendNumber('7')">7</button>
-                <button class="btn_c" onclick="appendNumber('8')">8</button>
-                <button class="btn_c" onclick="appendNumber('/')">/</button>
-                <button class="btn_c" onclick="calculateResult()">=</button>
-                <button class="btn_c" onclick="appendNumber('9')">9</button>
-                <button class="btn_c" onclick="appendNumber('0')">0</button>
-                <button class="btn_c" onclick="appendNumber('.')">.</button>
+                <button class="btn" onclick="clearInput()">C</button>
+                <button class="btn" onclick="appendValue('1')">1</button>
+                <button class="btn" onclick="appendValue('2')">2</button>
+                <button class="btn" onclick="appendValue('+')">+</button>
+                <button class="btn" onclick="appendValue('3')">3</button>
+                <button class="btn" onclick="appendValue('4')">4</button>
+                <button class="btn" onclick="appendValue('-')">-</button>
+                <button class="btn" onclick="appendValue('5')">5</button>
+                <button class="btn" onclick="appendValue('6')">6</button>
+                <button class="btn" onclick="appendValue('*')">*</button>
+                <button class="btn" onclick="appendValue('7')">7</button>
+                <button class="btn" onclick="appendValue('8')">8</button>
+                <button class="btn" onclick="appendValue('/')">/</button>
+                <button class="btn" onclick="calculateResult()">=</button>
+                <button class="btn" onclick="appendValue('9')">9</button>
+                <button class="btn" onclick="appendValue('0')">0</button>
+                <button class="btn" onclick="appendValue('.')">.</button>
             </div>
         </div>
     </main>
